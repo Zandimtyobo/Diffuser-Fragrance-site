@@ -1,0 +1,74 @@
+h1 {
+    background-image: url(Images/H1background.jpg);
+    background-size: auto;
+    background-position: center;
+    color: deeppink;
+    font-size: 4vw;
+    font-weight: 700;
+    width: 100%;
+    text-align: center;
+    padding: 40px 0;
+    margin: 0;
+    transition: color 0.3s ease;
+}
+
+h1:hover {
+    color: #D8A7A7;
+}
+
+img {
+    height: 300px;
+    width: 30%;
+    display: block;
+    margin: 30px auto 0;
+}
+
+details {
+    font-family: fantasy;
+    font-weight: 200;
+    text-align: center;
+}
+
+footer {
+    font-family: fantasy;
+    font-weight: 300;
+    text-align: center;
+}
+
+body {
+    background-image: url(Images/ca7d4b4c-234f-43ca-84d0-faf70ebc55fe.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+}
+
+.cart-container {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1000;
+    display: flex;
+    gap: 10px;
+}
+
+#cart-button,
+#order-button {
+    background-color: deeppink;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-family: fantasy;
+    font-size: xx-large;
+}
+
+#cart-button:hover,
+#order-button:hover {
+    background-color: #D8A7A7;
+}
+

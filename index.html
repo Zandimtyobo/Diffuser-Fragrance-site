@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="styles.css" type="text/css">
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>FeminineFragranceDiffusers</title>
+    </head>
+    <body>
+ <div class="cart-container">
+    <button id="order-button">Order Here</button>
+    <button id="cart-button">🛒 Cart (<span id="cart-count">0</span>)</button>
+</div>
+
+
+        <h1>Pink Diffuser Scents</h1>
+        <img src="Images/Lemongrassandgingerdiffer.jpg"/>
+        <img src="Images/rocksalthdiffuser.jpg"/>
+        <img src="Images/diffuserrose.jpg"/>
+        <br/>
+    <button>Order Here</button>
+   <footer>
+        Contact us for Custom Requests
+    </footer>
+
+    <details>
+        <summary>Click Here To View</summary>
+        Phone: 012 940 Pink <br>
+        Email: onela@tiktok.co.quotes
+    </details>
+        
+    <script>
+    let cartCount = 0;
+
+    function addToCart() {
+        cartCount++;
+        document.getElementById("cart-count").textContent = cartCount;
+    }
+</script>
+    </body>
+    
+</html>
